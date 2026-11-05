@@ -54,7 +54,7 @@ Tugas2_Inherit-polymorph-Npmawalakhir/
 - JDK 17 atau lebih baru (diuji dengan JDK 21)
 - IDE yang disarankan: IntelliJ IDEA
 
-## Cara Menjalankan Program
+# Cara Menjalankan Program
 
 **IntelliJ**
 
@@ -62,7 +62,20 @@ Tugas2_Inherit-polymorph-Npmawalakhir/
 2. Buka kelas uji (misalnya `soal1/TesSoal1.java`), klik ikon run di samping `main`.
 3. Atau buat *Run Configuration* bertipe *Application* dengan *Main class* `soal1.TesSoal1` (ganti sesuai soal).
 
-**Command line** (dari root project)
+**Command line, Windows PowerShell** (dari root project; PowerShell tidak memperluas `*.java`, jadi daftar file dibuat dulu)
+
+```powershell
+mkdir out
+javac -d out (Get-ChildItem -Path src -Recurse -Filter *.java | ForEach-Object { $_.FullName })
+
+java -cp out soal1.TesSoal1
+java -cp out soal2.TesSoal2
+java -cp out soal2.TesSoal2Lanjutan
+java -cp out soal3.TesSoal3
+java -cp out soal4.TesSoal4
+```
+
+**Command line, Linux / macOS / Git Bash** (dari root project)
 
 ```bash
 mkdir out
