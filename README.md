@@ -5,7 +5,7 @@
 | Nama lengkap | **[Hermanda Saputra]** |
 | NPM | **[250810701100099]** |
 | Kelas praktikum | A |
-| Repository | `https://github.com/[USERNAME]/Tugas2_Inherit-polymorph-Npmawalakhir` |
+| Repository | `https://github.com/manda-022/Tugas2_Inherit-polymorph-2599.git` |
 
 ## Deskripsi Singkat
 
@@ -91,7 +91,7 @@ Gagal (Harga negatif): Harga tidak boleh negatif: -1.0
 Gagal (Merek kosong): Merek tidak boleh kosong
 ```
 
-![Screenshot Soal 1](screenshots/soal1.png)
+
 
 ### Soal 2
 
@@ -125,7 +125,7 @@ B dibuat, nilai=5
 0.0
 ```
 
-![Screenshot Soal 2](screenshots/soal2.png)
+
 
 ### Soal 3
 
@@ -134,7 +134,7 @@ B dibuat, nilai=5
 (1.0, 1.0) - (5.0, 5.0)
 ```
 
-![Screenshot Soal 3](screenshots/soal3.png)
+
 
 ### Soal 4 (skenario normal dan exception tertangani)
 
@@ -148,7 +148,7 @@ Gagal: Kode produk sudah ada di keranjang: F01
 Gagal: Nama produk tidak boleh kosong
 ```
 
-![Screenshot Soal 4](screenshots/soal4.png)
+
 
 ---
 
