@@ -1,0 +1,10 @@
+# Hasil kompilasi
+*.class
+out/
+target/
+bin/
+
+# Pengaturan IDE
+.idea/
+*.iml
+.vscode/
